@@ -1,0 +1,603 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #F3F3F3;
+}
+
+button:hover {
+  background: #000;
+  -webkit-transform: scale(1.03, 1.03);
+          transform: scale(1.03, 1.03);
+  cursor: pointer;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+}
+
+nav .logo {
+  width: 80px;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding-left: 20px;
+  color: #000;
+}
+
+nav ul li img {
+  width: 80px;
+  cursor: pointer;
+}
+
+.top-page {
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-page .top-left {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.top-page .top-left h3 {
+  font-weight: lighter;
+}
+
+.top-page .top-left button {
+  margin-top: 3rem;
+  height: 3rem;
+  width: 7rem;
+  border-radius: 0.7rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-image: -webkit-gradient(linear, right top, left top, from(#261754), to(#2E1871));
+  background-image: linear-gradient(to left, #261754, #2E1871);
+  color: #fff;
+  font-weight: lighter;
+}
+
+.top-page .top-left .shoe-size {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-page .top-left .size {
+  height: 1.5rem;
+  width: 3rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  background: none;
+  color: #000;
+  -webkit-box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.top-page .top-left .one {
+  margin-left: 0;
+}
+
+.top-page .top-left .active {
+  background: #1d1d1d;
+  color: #fff;
+}
+
+.top-page .top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-page .top-right img {
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 7%;
+}
+
+.second-page {
+  height: 60vh;
+  overflow-x: hidden;
+}
+
+.second-page .img-slider {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow: hidden;
+}
+
+.second-page .img-container {
+  height: 350px;
+  width: 250px;
+  text-align: center;
+  background: #fff;
+  margin-left: 2vw;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+.second-page .img-container:hover {
+  -webkit-transform: scale(1.03, 1.03);
+          transform: scale(1.03, 1.03);
+  opacity: 0.8;
+}
+
+.second-page .right-arrow,
+.second-page .left-arrow {
+  width: 80px;
+  height: 350px;
+  border: none;
+  z-index: 0;
+}
+
+.second-page .left-arrow {
+  left: 0;
+}
+
+.second-page .left-arrow .arrow span {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.second-page .right-arrow, .second-page .left-arrow,
+.second-page .arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(0, 0, 0, 0.06);
+  position: absolute;
+  right: 0;
+}
+
+.second-page .right-arrow .arrow, .second-page .left-arrow .arrow,
+.second-page .arrow .arrow {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.second-page .right-arrow .arrow span, .second-page .left-arrow .arrow span,
+.second-page .arrow .arrow span {
+  font-size: 1.5rem;
+}
+
+.second-page img {
+  width: 250px;
+}
+
+.second-page .updateimg {
+  padding-top: 4rem;
+  width: 200px;
+}
+
+.second-page .secondimg {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.third-page {
+  height: 80vh;
+  background: #533C99;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-page h1 {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.third-page h4 {
+  font-weight: lighter;
+  margin-bottom: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.shop-btn,
+.join-btn {
+  height: 3.5rem;
+  text-align: center;
+  padding: 0 2.8rem;
+  margin-top: 0.8rem;
+  background: #000;
+  color: #fff;
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.fourth-page {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fourth-page h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.fourth-page .second {
+  margin-left: 2rem;
+}
+
+.fourth-page img {
+  width: 500px;
+}
+
+.last-page,
+.last {
+  background: #000;
+  color: #fff;
+}
+
+.last {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: start;
+}
+
+.row-one,
+.row-two,
+.row-three,
+.row-four {
+  margin: 4rem 0;
+  line-height: 2.2rem;
+}
+
+.row-two h3,
+.row-three h3 {
+  font-weight: lighter;
+}
+
+.last-page {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.last-page h3 {
+  font-weight: normal;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@keyframe;
+.shop-now,
+.form-section,
+.signup-section,
+.cart {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  z-index: 1;
+}
+
+.shop-now,
+.form-section,
+.signup-section {
+  display: none;
+}
+
+.cart-content {
+  height: 90%;
+  width: 90%;
+  background: #fff;
+  position: relative;
+}
+
+.cart-content .closeCart {
+  position: absolute;
+  right: 2%;
+  top: 3%;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.cart-items {
+  margin-top: 5%;
+  overflow: hidden;
+}
+
+.cart-items .cartRowOverflow {
+  overflow: scroll;
+  height: 78vh;
+}
+
+.cart-items .total-purchase {
+  position: absolute;
+  bottom: 0;
+  height: 4rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: 111;
+  background-color: #fff;
+}
+
+.cart-items .total-purchase h3,
+.cart-items .total-purchase .total {
+  font-weight: normal;
+}
+
+.cart-items .purchaseBtn {
+  height: 3rem;
+  width: 7rem;
+  border-radius: 0.7rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.cart-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.small-shop,
+.form-content,
+.signup-content {
+  width: 60vw;
+  height: 60vh;
+  background-color: #fff;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.small-shop .close,
+.form-content .close,
+.signup-content .close {
+  position: absolute;
+  top: 0.5rem;
+  right: 2.1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.small-shop img,
+.form-content img,
+.signup-content img {
+  width: 350px;
+}
+
+.form-content,
+.signup-content {
+  background-image: -webkit-gradient(linear, right top, left top, from(#261754), to(#2E1871));
+  background-image: linear-gradient(to left, #261754, #2E1871);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.form-content .close,
+.signup-content .close {
+  color: #fff;
+}
+
+.form-content .login,
+.signup-content .login {
+  background: #000;
+}
+
+.form-content input,
+.form-content .login,
+.form-content .signup,
+.signup-content input,
+.signup-content .login,
+.signup-content .signup {
+  border: none;
+  background: #e0cece;
+  height: 2rem;
+  outline: none;
+  padding-left: 1rem;
+  border-radius: 6px;
+}
+
+.form-content .login,
+.form-content .signup,
+.signup-content .login,
+.signup-content .signup {
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10%;
+  color: #b8aeae;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-content div,
+.signup-content div {
+  margin-top: 6px;
+}
+
+.form-content .long-input,
+.signup-content .long-input {
+  width: 38vh;
+}
+
+.form-content button,
+.signup-content button {
+  margin-top: 1rem;
+  height: 3rem;
+  width: 7rem;
+  border-radius: 0.7rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.img-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.img-section h1 {
+  font-size: 3rem;
+}
+
+.centerElements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.popup-img {
+  position: absolute;
+  width: 500px;
+  left: 5vw;
+  top: 0;
+  z-index: 1;
+}
+
+.radioOptions {
+  color: #fff;
+}
+
+.full {
+  width: 23.5rem;
+}
+
+.form-section {
+  height: 100vh;
+  width: 100vw;
+}
+/*# sourceMappingURL=style.css.map */

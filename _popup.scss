@@ -1,0 +1,210 @@
+.shop-now,
+.form-section,
+.signup-section,
+.cart{
+
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    //display: none;
+}
+
+.shop-now,
+.form-section,
+.signup-section{
+    display: none;
+}
+
+.cart-content{
+    height: 90%;
+    width: 90%;
+    background: #fff;
+    position: relative;
+
+    .closeCart{
+        position: absolute;
+        right: 2%;
+        top: 3%;
+        cursor: pointer;
+        font-weight: normal;
+        font-size: 2rem;
+    }
+}
+.cart-items{
+    margin-top: 5%;
+    overflow: hidden;//position: relative;
+
+    .cartRowOverflow{
+        overflow: scroll;
+       // background-color: #000;
+        height: 78vh;
+    }
+    
+
+    .total-purchase{
+        position: absolute;
+        bottom: 0;
+        height: 4rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 111;
+        background-color: #fff;
+
+        h3,
+        .total{
+            font-weight: normal;
+        }
+    }
+
+    .purchaseBtn{
+        height: 3rem;
+        width: 7rem;
+        border-radius: 0.7rem;
+        border: none;
+        outline: none;
+        text-align: center;
+        background: #000;
+        color: #fff;
+        font-weight: lighter; 
+    }
+    }
+    
+
+
+.cart-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.small-shop,
+.form-content,
+.signup-content{
+    width: 60vw;
+    height: 60vh;
+    background-color: #fff;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+        .close{
+            position: absolute;
+            top: 0.5rem;
+            right: 2.1rem;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+    img{
+        width: 350px;
+    }
+
+}
+
+.form-content,
+.signup-content{
+    background-image: linear-gradient(to left, #261754, #2E1871);
+    justify-content: space-around;
+
+    .close{
+        color: #fff;
+    }
+
+    .login{
+        background: #000;
+    }
+
+    input,
+    .login,
+    .signup {
+
+        border: none;
+        background: rgb(224, 206, 206);
+        height: 2rem;
+        outline: none;
+        padding-left: 1rem;
+        border-radius: 6px;
+        
+    }
+    .login,
+    .signup{
+        background: none;
+        display: flex;
+        margin-bottom: 10%;
+        color: rgb(184, 174, 174);
+        align-items: center;
+        justify-content: center;
+    }
+
+    div{
+        margin-top: 6px;
+    }
+
+    .long-input{
+        width: 38vh;
+        
+    }
+
+    button{
+        margin-top: 1rem;
+        height: 3rem;
+        width: 7rem;
+        border-radius: 0.7rem;
+        border: none;
+        outline: none;
+        text-align: center;
+        background: #000;
+        color: #fff;
+        font-weight: lighter; 
+    }    
+}
+
+.img-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    h1{
+        font-size: 3rem;
+    }
+
+}
+
+.centerElements{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.popup-img{
+
+    position: absolute;
+    width: 500px;
+    left: 5vw;
+    top: 0;
+    z-index: 1;
+
+}
+
+.radioOptions{
+    color: #fff;
+}
+
+.full{
+    
+        width: 23.5rem;
+        
+    }
