@@ -359,6 +359,7 @@ nav ul li img {
           align-items: center;
   position: fixed;
   z-index: 1;
+  display: none;
 }
 
 .shop-now,
